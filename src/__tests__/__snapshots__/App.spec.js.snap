@@ -1,0 +1,305 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the App component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+          Demo time !
+        </h1>,
+        <span>
+          Current state: 
+          1,2
+        </span>,
+        <br />,
+        <Demo
+          numbers={
+            Array [
+              1,
+              2,
+            ]
+          }
+        />,
+        <br />,
+        <button
+          onClick={[Function]}
+        >
+          INCREASE BY ONE ALL NUMBERS IN THE STATE
+        </button>,
+        <br />,
+        <button
+          onClick={[Function]}
+        >
+          ADD A NEW RANDOM NUMBER(1-9) TO THE STATE
+        </button>,
+      ],
+      "className": "App",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Demo time !",
+        },
+        "ref": null,
+        "rendered": "Demo time !",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Current state: ",
+            "1,2",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Current state: ",
+          "1,2",
+        ],
+        "type": "span",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "numbers": Array [
+            1,
+            2,
+          ],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "INCREASE BY ONE ALL NUMBERS IN THE STATE",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "INCREASE BY ONE ALL NUMBERS IN THE STATE",
+        "type": "button",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "ADD A NEW RANDOM NUMBER(1-9) TO THE STATE",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "ADD A NEW RANDOM NUMBER(1-9) TO THE STATE",
+        "type": "button",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            Demo time !
+          </h1>,
+          <span>
+            Current state: 
+            1,2
+          </span>,
+          <br />,
+          <Demo
+            numbers={
+              Array [
+                1,
+                2,
+              ]
+            }
+          />,
+          <br />,
+          <button
+            onClick={[Function]}
+          >
+            INCREASE BY ONE ALL NUMBERS IN THE STATE
+          </button>,
+          <br />,
+          <button
+            onClick={[Function]}
+          >
+            ADD A NEW RANDOM NUMBER(1-9) TO THE STATE
+          </button>,
+        ],
+        "className": "App",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Demo time !",
+          },
+          "ref": null,
+          "rendered": "Demo time !",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Current state: ",
+              "1,2",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Current state: ",
+            "1,2",
+          ],
+          "type": "span",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "numbers": Array [
+              1,
+              2,
+            ],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "INCREASE BY ONE ALL NUMBERS IN THE STATE",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "INCREASE BY ONE ALL NUMBERS IN THE STATE",
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "ADD A NEW RANDOM NUMBER(1-9) TO THE STATE",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "ADD A NEW RANDOM NUMBER(1-9) TO THE STATE",
+          "type": "button",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
